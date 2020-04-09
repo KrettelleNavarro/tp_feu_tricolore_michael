@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- lien vers Bootstrap     -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>TITLE</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+
+            <!--création du containeur des feux -->
+        <div class="container" 
+                style="margin: 0 auto;
+                width: 250px;
+                background-color: rgb(2, 66, 2);
+                border-bottom-style: 50px;
+                margin-top: 50px;
+                padding: 15px;">
+                
+            <div class="traffic-light" >
+                    <div class="stop active "></div>
+                    <div class="wait "></div>
+                    <div class="go "></div>
+            </div>
+        </div>
+
+           <!-- création du pieds de feu avec le bouton d'appel pieton -->
+
+        <div id="pied">
+            <!-- Création du container ovale noir -->
+            <div id="ovale">
+                <!-- Creation de la div étiquette jaune piétons appuyez -->
+                <div id="etiquette">Piétons Appuyez<i class="far fa-arrow-alt-circle-down "></i></span>
+                </div>
+
+            <!-- création du bouton rouge d'appui -->
+                <div class="buttons">
+                    <button>push here</button>
+                </div>
+            </div>
+             
+    </div>
+          
+
+        
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
